@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat'!important;
+    min-height: 911px;
+    background-image: url('../src/assets/bg.webp');
+    background-repeat: no-repeat;
+}
+.form-data{
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: auto;
+}
+form{
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 7.5px;
+    padding: 15px 10px 15px 10px;
+    width: 100%;
+}
+.dropdown-item-text {
+    cursor: pointer;
+}  
+.dropdown-item-text:hover {
+    background-color: #a2b0bd;
+    color: white;
+}
